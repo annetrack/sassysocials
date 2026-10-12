@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5effd">
+<title>Dainty Socials | CRM & Digital Client Journey Proposal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+:root{--plum:#251044;--purple:#7040cf;--pink:#ed5da8;--lav:#f3edfc;--lav2:#e5d7fa;--paper:#fffaff;--ink:#282032;--muted:#70677d;--line:#e4d8f2;--white:#fff;--green:#dcebe1;--shadow:0 18px 45px #38205e12}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);font-family:"DM Sans",sans-serif;color:var(--ink);line-height:1.65}a{color:inherit}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}
+header{padding:19px 0;border-bottom:1px solid #e8dff4;background:#fff9}nav{display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-family:"Playfair Display",serif;font-size:1.3rem;font-weight:700;text-decoration:none;color:var(--plum)}.brand span{color:var(--pink)}.prepared{font-size:.75rem;color:var(--muted)}
+.hero{padding:68px 0 58px;background:radial-gradient(ellipse at 82% 10%,#e1d0fa,transparent 48%),linear-gradient(120deg,#faf6ff,#eee4fb)}.eyebrow{display:inline-block;padding:7px 13px;border:1px solid #cbb3ef;border-radius:999px;background:#fff9;color:#6038a0;text-transform:uppercase;letter-spacing:.1em;font-size:.67rem;font-weight:800}
+h1,h2,h3{font-family:"Playfair Display",serif;color:var(--plum)}h1{font-size:clamp(3rem,6.5vw,5.8rem);line-height:1.02;letter-spacing:-.05em;margin:22px 0 18px;font-weight:600}h1 em,h2 em{color:#8d58d2;font-weight:500}.lead{font-size:1.08rem;max-width:760px;color:#56476f}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 18px;border-radius:13px;text-decoration:none;font-size:.8rem;font-weight:800;border:1px solid #c9b2e9;transition:.2s}.btn:hover{transform:translateY(-2px);box-shadow:var(--shadow)}.btn-primary{background:var(--pink);border-color:var(--pink);color:white}.btn-secondary{background:#fff9;color:var(--plum)}.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:760px;margin-top:35px;padding-top:22px;border-top:1px solid #d9c7ef}.meta small{display:block;color:var(--muted);font-size:.69rem;text-transform:uppercase;letter-spacing:.1em}.meta strong{font-size:.88rem}
+section{padding:68px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:35px;margin-bottom:27px}.kicker{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:#8b5bc5;font-weight:800}.section-head h2,.intro-grid h2{font-size:clamp(2.2rem,4vw,3.4rem);line-height:1.08;letter-spacing:-.04em;margin:8px 0 0}.section-head p{max-width:470px;color:var(--muted);font-size:.9rem;margin:0}
+.problem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.problem{background:white;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 8px 25px #38205e06}.num{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:11px;background:var(--lav2);color:#6038a0;font-size:.72rem;font-weight:800}.problem h3{font-size:1.2rem;margin:14px 0 7px}.problem p{font-size:.83rem;color:var(--muted);margin:0}
+.intro-section{background:#fff}.intro-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:55px;align-items:start}.intro-grid>div>p{color:var(--muted)}.highlight{background:var(--lav);border:1px solid var(--line);border-radius:20px;padding:24px}.highlight strong{display:block;color:var(--plum);margin-bottom:8px}.highlight p{font-size:.88rem;color:#5f536f;margin:0}
+.deliverables{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.deliverable{padding:23px;border:1px solid var(--line);border-radius:18px;background:#fff}.deliverable .symbol{width:42px;height:42px;border-radius:13px;background:#f0e6fc;display:grid;place-items:center;color:#7845bf;font-size:1.1rem}.deliverable h3{font-size:1.2rem;margin:14px 0 7px}.deliverable p{font-size:.84rem;color:var(--muted);margin:0}.tag{display:inline-block;margin-top:12px;border-radius:999px;padding:5px 9px;background:#f4edf9;color:#6e4a9e;font-size:.66rem;font-weight:800}
+.journey{background:linear-gradient(130deg,#f6f0fd,#fdf8ff)}.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;align-items:stretch}.flow-card{position:relative;background:#fff;border:1px solid var(--line);border-radius:17px;padding:18px 14px}.flow-card:not(:last-child):after{content:"→";position:absolute;right:-13px;top:45%;z-index:2;background:var(--lav);border-radius:50%;width:24px;height:24px;text-align:center;color:#8b58cc;font-weight:800}.flow-card .step{font-size:.65rem;font-weight:800;letter-spacing:.12em;color:#9a6cc8}.flow-card h3{font-family:"DM Sans",sans-serif;font-size:.88rem;margin:8px 0 6px}.flow-card p{font-size:.73rem;color:var(--muted);margin:0}
+.automation-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.automation{border:1px solid var(--line);border-radius:20px;background:#fff;padding:25px}.automation h3{font-size:1.35rem;margin:0 0 12px}.automation ul{margin:0;padding-left:19px;color:var(--muted);font-size:.84rem}.automation li{margin:7px 0}
+.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.phase{border-radius:18px;background:#fff;border:1px solid var(--line);padding:22px}.phase .phase-label{font-size:.66rem;letter-spacing:.12em;color:#8b58cc;font-weight:800}.phase h3{font-size:1.2rem;margin:10px 0 7px}.phase p{font-size:.82rem;color:var(--muted);margin:0}
+.investment{background:var(--plum);color:#fff}.investment h2,.investment h3{color:#fff}.investment .kicker{color:#e5b9fa}.investment p{color:#d9cde7}.investment-grid{display:grid;grid-template-columns:minmax(0,.88fr) minmax(0,1.12fr);gap:30px;align-items:start}.investment-card{background:#fff;color:var(--ink);border-radius:22px;padding:26px;min-width:0}.investment-card .label{font-size:.68rem;color:#8155b8;text-transform:uppercase;letter-spacing:.13em;font-weight:800}.investment-card .price{font-family:"Playfair Display",serif;font-size:2.3rem;color:var(--plum);margin:12px 0}.investment-card p{font-size:.8rem;color:var(--muted)}.investment-card .btn{width:100%;margin-top:10px}.tier-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px;align-items:stretch}.tier{border:1px solid #e4d8f2;border-radius:16px;padding:18px;background:#fff;min-width:0;overflow-wrap:anywhere}.tier.featured{border:2px solid #ed5da8;background:#fff9fd}.tier .tier-tag{font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:#8050b7;font-weight:800}.tier h3{font-family:"DM Sans",sans-serif;font-size:.95rem;margin:9px 0 4px}.tier .tier-price{font-family:"Playfair Display",serif;font-size:1.9rem;color:var(--plum);line-height:1.2}.tier p{font-size:.76rem;color:var(--muted);margin:8px 0}.tier ul{font-size:.75rem;color:var(--muted);padding-left:17px;margin:12px 0}.terms-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.term{background:#f7f2fc;border-radius:13px;padding:13px}.term strong{display:block;color:var(--plum);font-size:.8rem}.term span{font-size:.72rem;color:var(--muted)}
+.next-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.next{padding:22px;border-radius:18px;background:#fff;border:1px solid var(--line)}.next b{font-size:.76rem;color:#8757c0}.next h3{font-size:1.2rem;margin:8px 0}.next p{font-size:.82rem;color:var(--muted);margin:0}
+footer{padding:24px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.73rem}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:900px){.investment-grid{grid-template-columns:1fr;gap:26px}.investment-card{max-width:none}}\n@media(max-width:760px){.tier-grid,.terms-grid{grid-template-columns:1fr}.section-head{display:block}.section-head p{margin-top:12px}.problem-grid{grid-template-columns:1fr 1fr}.intro-grid,.investment-grid{grid-template-columns:1fr;gap:25px}.flow{grid-template-columns:1fr}.flow-card:not(:last-child):after{content:"↓";right:calc(50% - 12px);top:auto;bottom:-14px}.automation-grid,.timeline,.next-steps{grid-template-columns:1fr}.meta{grid-template-columns:1fr;gap:12px}.hero{padding:48px 0}.hero-actions .btn{width:100%}}
+@media(max-width:480px){.wrap{width:calc(100% - 30px)}.problem-grid,.deliverables{grid-template-columns:1fr}h1{font-size:3.25rem}section{padding:50px 0}.prepared{font-size:.66rem}.brand{font-size:1.15rem}}
+</style></head>
+<body>
+<header><div class="wrap"><nav><a class="brand" href="#top">Dainty Socials<span>.</span></a><span class="prepared">Proposal prepared for Patricia · October 2026</span></nav></div></header>
+<main id="top">
+<section class="hero"><div class="wrap">
+ <span class="eyebrow">Digital client journey · CRM & automation proposal</span>
+ <h1>Turn brand interest<br>into <em>client partnerships.</em></h1>
+ <p class="lead">A proposed lead management and client onboarding system for Dainty Socials — designed to help a digital marketing agency capture inquiries, follow up consistently, and guide potential clients from first conversation to kickoff.</p>
+ <div class="hero-actions"><a class="btn btn-primary" href="#solution">Explore the proposed system ↓</a><a class="btn btn-secondary" href="#investment">Review project scope ↘</a></div>
+ <div class="meta"><div><small>Prepared for</small><strong>Patricia</strong></div><div><small>Mockup brand</small><strong>Dainty Socials</strong></div><div><small>Proposed focus</small><strong>CRM · Follow-up · Onboarding</strong></div></div>
+</div></section>
+
+<section><div class="wrap">
+ <div class="section-head"><div><div class="kicker">01 / The opportunity</div><h2>A polished brand deserves<br><em>an equally polished process.</em></h2></div><p>Dainty Socials presents premium digital marketing services across TikTok, Meta, Shopee, content production, and omnichannel strategy. Behind that offer, the inquiry-to-client journey should feel just as organized as the brand itself.</p></div>
+ <div class="problem-grid">
+  <article class="problem"><span class="num">01</span><h3>Inquiries in different places</h3><p>Potential clients may arrive through social DMs, forms, referrals, or campaign links — making it easy for conversations to get scattered.</p></article>
+  <article class="problem"><span class="num">02</span><h3>Follow-up depends on memory</h3><p>Without a consistent follow-up process, warm prospects can go quiet before a discovery call or proposal decision.</p></article>
+  <article class="problem"><span class="num">03</span><h3>Unclear lead status</h3><p>It can be difficult to see who is new, booked, qualified, awaiting a proposal, or ready to onboard.</p></article>
+  <article class="problem"><span class="num">04</span><h3>Manual admin after the yes</h3><p>Proposal acceptance, payment, intake, and kickoff can require repeated manual reminders and handoffs.</p></article>
+  <article class="problem"><span class="num">05</span><h3>Limited visibility</h3><p>Without a shared pipeline, it is harder to spot bottlenecks and understand which opportunities need attention.</p></article>
+  <article class="problem"><span class="num">06</span><h3>Client experience starts early</h3><p>A responsive, clear process helps the agency deliver a professional experience before the engagement even begins.</p></article>
+ </div>
+</div></section>
+
+<section class="intro-section"><div class="wrap intro-grid">
+ <div><div class="kicker">02 / Proposed approach</div><h2>One clear path from<br><em>lead to kickoff.</em></h2></div>
+ <div><p>Set up a centralized CRM and a practical pipeline so every inquiry has a clear next step. Add timely reminders and client onboarding handoffs where they reduce repetitive admin.</p><div class="highlight"><strong>Primary objective</strong><p>Give Dainty Socials a repeatable way to capture and organize prospective clients, manage discovery calls and proposals, and transition confirmed clients into onboarding — without relying on memory or scattered notes.</p></div></div>
+</div></section>
+
+<section id="solution"><div class="wrap">
+ <div class="section-head"><div><div class="kicker">03 / Recommended system</div><h2>What the setup could include</h2></div><p>A focused first version of the system, with scope confirmed before implementation. The goal is a usable foundation, not unnecessary complexity.</p></div>
+ <div class="deliverables">
+  <article class="deliverable"><div class="symbol">◎</div><h3>Lead capture & source tracking</h3><p>Centralize inquiries from the agreed forms and channels, capture key contact details, and record lead source where supported.</p><span class="tag">CRM foundation</span></article>
+  <article class="deliverable"><div class="symbol">▤</div><h3>Sales pipeline setup</h3><p>Organize prospects through stages such as New Inquiry, Discovery Booked, Discovery Completed, Proposal Sent, Follow-Up, Won, and Lost.</p><span class="tag">Pipeline visibility</span></article>
+  <article class="deliverable"><div class="symbol">◷</div><h3>Booking reminders & follow-up</h3><p>Configure agreed appointment confirmations, reminders, and post-call follow-up to reduce missed steps.</p><span class="tag">Workflow automation</span></article>
+  <article class="deliverable"><div class="symbol">✉</div><h3>Proposal follow-up process</h3><p>Set up task reminders or approved messages for proposals awaiting a decision, with clear stop conditions when a prospect responds.</p><span class="tag">Sales support</span></article>
+  <article class="deliverable"><div class="symbol">✓</div><h3>Client onboarding handoff</h3><p>After a confirmed decision and agreed payment milestone, create the onboarding tasks and send the next-step information.</p><span class="tag">Client experience</span></article>
+  <article class="deliverable"><div class="symbol">▦</div><h3>Basic reporting view</h3><p>Provide a clear view of pipeline stage, upcoming tasks, and lead outcomes using the CRM’s available reporting features.</p><span class="tag">Operational visibility</span></article>
+ </div>
+</div></section>
+
+<section class="journey"><div class="wrap">
+ <div class="section-head"><div><div class="kicker">04 / Example workflow</div><h2>From first inquiry<br>to active client.</h2></div><p>The following is a proposed workflow to validate with Patricia. Exact stages, triggers, and channels will be finalized during kickoff.</p></div>
+ <div class="flow">
+  <article class="flow-card"><div class="step">01 · CAPTURE</div><h3>New inquiry</h3><p>Contact record created and source recorded where available.</p></article>
+  <article class="flow-card"><div class="step">02 · QUALIFY</div><h3>Discovery call</h3><p>Booking confirmation, reminders, and outcome tracking.</p></article>
+  <article class="flow-card"><div class="step">03 · PROPOSE</div><h3>Proposal sent</h3><p>Follow-up task and clear status while the prospect decides.</p></article>
+  <article class="flow-card"><div class="step">04 · CONFIRM</div><h3>Won & payment</h3><p>Move the opportunity forward after agreed confirmation.</p></article>
+  <article class="flow-card"><div class="step">05 · ONBOARD</div><h3>Kickoff ready</h3><p>Send intake and kickoff details; create onboarding tasks.</p></article>
+ </div>
+</div></section>
+
+<section><div class="wrap">
+ <div class="section-head"><div><div class="kicker">05 / Automation logic</div><h2>Helpful automations,<br><em>with human oversight.</em></h2></div><p>Automations should handle predictable admin while keeping personalized sales conversations in the hands of the agency team.</p></div>
+ <div class="automation-grid">
+  <article class="automation"><h3>Prospect experience</h3><ul><li>New inquiry acknowledgement, if the channel supports it</li><li>Discovery booking confirmation and reminder sequence</li><li>Internal notification when a qualified inquiry arrives</li><li>Follow-up task after a completed discovery call</li><li>Proposal follow-up reminders with manual review before sending</li></ul></article>
+  <article class="automation"><h3>Client handoff</h3><ul><li>Pipeline update when the opportunity is marked won</li><li>Onboarding checklist and owner assignment</li><li>Client intake and asset-request email, once approved</li><li>Internal reminder for payment or kickoff milestones</li><li>Clear handoff from sales activity to delivery workflow</li></ul></article>
+ </div>
+</div></section>
+
+<section class="intro-section"><div class="wrap">
+ <div class="section-head"><div><div class="kicker">06 / Implementation plan</div><h2>A simple, staged rollout.</h2></div><p>Proposed sequence for planning purposes. Delivery dates depend on access, content, integrations, and final scope approval.</p></div>
+ <div class="timeline">
+  <article class="phase"><div class="phase-label">PHASE 01</div><h3>Map & configure</h3><p>Confirm lead sources, sales stages, fields, users, permissions, and the existing tools to connect.</p></article>
+  <article class="phase"><div class="phase-label">PHASE 02</div><h3>Build & test</h3><p>Configure the CRM, pipeline, agreed workflows, templates, and test cases using sample records.</p></article>
+  <article class="phase"><div class="phase-label">PHASE 03</div><h3>Launch & hand over</h3><p>Walk through the system, document key steps, and resolve agreed launch issues within the support window.</p></article>
+ </div>
+</div></section>
+
+<section class="investment" id="investment"><div class="wrap investment-grid">
+ <div><div class="kicker">07 / Project investment</div><h2 style="font-size:clamp(2.5rem,4.5vw,4rem);line-height:1.06;margin:14px 0">A system built around<br>your actual workflow.</h2><p>This proposal is a mockup for Dainty Socials, with two proposed investment options aligned to the J Solar proposal structure. Confirm the final deliverables, integrations, schedule, and pricing with Patricia before treating it as a formal quote.</p><p>Potential out-of-scope items include paid software subscriptions, ad campaign management, full website copywriting, custom API development, and third-party integration fees unless explicitly included.</p></div>
+ <div class="investment-card"><div class="label">Project investment</div><h3 style="color:var(--plum);font-size:1.35rem;margin:10px 0 5px">Choose the level of support</h3><p>Two options, aligned with the J Solar proposal structure. Final scope will be confirmed before approval.</p><div class="tier-grid">
+  <article class="tier"><div class="tier-tag">Option 01 · Core</div><h3>Lead Management System</h3><div class="tier-price">₱65,000</div><p>Essential CRM setup and sales visibility.</p><ul><li>CRM and contact database</li><li>Lead capture form and fields</li><li>Sales pipeline configuration</li><li>Booking calendar and basic reminders</li><li>Internal notifications and task reminders</li><li>Testing, handover guide and training</li></ul></article>
+  <article class="tier featured"><div class="tier-tag">Recommended · Option 02</div><h3>Complete Client Journey</h3><div class="tier-price">₱80,000</div><p>Core setup plus expanded follow-up and onboarding automation.</p><ul><li>Everything in Core</li><li>Automated inquiry acknowledgment and follow-up</li><li>Post-discovery follow-up workflow</li><li>Proposal follow-up reminders and stop conditions</li><li>Selected lead reactivation workflow</li><li>Client onboarding intake and welcome email</li><li>Expanded workflow visibility and end-to-end testing</li></ul></article>
+ </div><div class="terms-grid"><div class="term"><strong>Payment</strong><span>50% to start · 50% on handover</span></div><div class="term"><strong>Estimated timeline</strong><span>2–3 weeks, subject to access and scope</span></div><div class="term"><strong>Post-launch</strong><span>30 days of fixes included</span></div></div><hr style="border:0;border-top:1px solid #e7dcef;margin:20px 0"><strong>Scope & exclusions</strong><p>Software subscriptions, third-party fees, ad management, full website copywriting, and custom API development are excluded unless agreed in writing. CRM platform, number of workflows, integrations, and channels will be confirmed before work begins.</p></div>
+</div></section>
+
+<section id="next-steps"><div class="wrap">
+ <div class="section-head"><div><div class="kicker">08 / Next steps</div><h2>Let’s make the scope clear.</h2></div><p>Once the proposal direction is approved, use a short kickoff to confirm requirements before implementation begins.</p></div>
+ <div class="next-steps">
+  <article class="next"><b>01 · ALIGN</b><h3>Confirm priorities</h3><p>Agree on the highest-value part of the lead-to-client journey to improve first.</p></article>
+  <article class="next"><b>02 · DEFINE</b><h3>Approve deliverables</h3><p>Confirm workflows, integrations, timeline, access requirements, and investment.</p></article>
+  <article class="next"><b>03 · BUILD</b><h3>Begin implementation</h3><p>Set up the CRM, test the agreed scenarios, and prepare a practical handover.</p></article>
+ </div>
+ <div style="text-align:center;margin-top:28px"><a class="btn btn-primary" href="mailto:YOUR_EMAIL_HERE?subject=Dainty%20Socials%20Proposal%20Discussion">Discuss this proposal <span>→</span></a><p style="font-size:.73rem;color:var(--muted);margin-top:10px">Replace the email placeholder before sharing. This mockup is not a binding quotation.</p></div>
+</div></section>
+</main>
+<footer><div class="wrap foot"><span>Dainty Socials · Digital Marketing Services</span><span>Prepared for Patricia · October 2026 · Mockup proposal</span></div></footer>
+</body></html>
